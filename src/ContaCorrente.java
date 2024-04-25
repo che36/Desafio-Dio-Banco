@@ -1,6 +1,11 @@
 public class ContaCorrente extends Conta {
 
-    public ContaCorrente(CLiente cliente) {
+    public ContaCorrente(Cliente cliente) {
         super(cliente);
+    }
+
+    @Override
+    public void imprimirExtrato() {
+
     }
 }
