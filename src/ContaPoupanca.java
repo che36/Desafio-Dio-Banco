@@ -1,6 +1,11 @@
 public class ContaPoupanca extends Conta {
 
-    public ContaPoupanca(CLiente cliente) {
+    public ContaPoupanca(Cliente cliente) {
         super(cliente);
+    }
+
+    @Override
+    public void imprimirExtrato() {
+
     }
 }
